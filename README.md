@@ -48,7 +48,48 @@ Uses `EasyOCR` for image extraction and native libraries for text formats.
 ## 📦 Installation
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/yourusername/CodeGenie.git
 cd CodeGenie
 
+Create a Virtual Environment
+
+python -m venv venv
+source venv/bin/activate     # Mac/Linux
+venv\Scripts\activate        # Windows
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+▶️ Running the App
+
+streamlit run app.py
+
+📙 Folder Structure
+
+streamlit-project/
+│── project.py           # Main Streamlit application
+│── callbacks.py         # All UI event handlers
+│── styles.py            # Custom CSS injection
+│── README.md            # Documentation
+│── requirements.txt     # Python dependencies
+
+🧩 Technologies Used
+Component	      Library / Tech
+UI	            Streamlit
+OCR	            EasyOCR
+PDF	            pypdf
+DOCX	          python-docx
+Voice Input	    SpeechRecognition
+LLM Backend	    Ollama
+HTTP Requests	  requests
+Image Handling	Pillow, NumPy
+
+🛠️ Troubleshooting
+
+pip install easyocr
+pip install opencv-python-headless
+
+📄 License
+
+MIT License © 2025
