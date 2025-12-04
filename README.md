@@ -51,3 +51,4 @@ Uses `EasyOCR` for image extraction and native libraries for text formats.
 ```bash
 git clone https://github.com/yourusername/CodeGenie.git
 cd CodeGenie
+
