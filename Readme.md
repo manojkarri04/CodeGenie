@@ -1,5 +1,13 @@
 # Code Genie
 
+## Internship Experience
+
+This repository contains work completed during my internship, where I developed
+an AI-powered coding assistant using Streamlit and a locally hosted LLM via Ollama.
+The focus was on real-time interaction, OCR processing, voice input, and clean UI
+architecture following industry best practices.
+
+
 **Code Genie** is an advanced, AI-powered conversational interface designed to provide seamless interaction with local Large Language Models (LLMs) via Ollama. It features a robust multi-modal input system, allowing users to interact through text, voice, and uploaded documents.
 
 ---
